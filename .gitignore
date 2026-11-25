@@ -1,0 +1,9 @@
+# Build artifacts
+backend/build/
+backend/.gradle/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+*.log
+.idea/
+.vscode/
