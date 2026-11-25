@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: exam-timetable-system
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: local
+      - key: JWT_SECRET
+        value: 9a3f2c4e6b8a1d5f7e9c2b4a6d8f1e3c5b7a9d1f3e5c7a9b1d3f5e7c9a1b3d5f
